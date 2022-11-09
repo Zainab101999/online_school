@@ -1,5 +1,4 @@
 # online_school
-A data modelling project based on creating a database for a website that provides online courses. The website is for selling online courses so that people can sign up and enroll in one or more courses. The courses are recorded by instructors and uploaded to the website. A course can have one more more tags like front-end or back-end.
-To create the database I've first created a conceptual model having 2 entities, students and courses and then created a logical model based on that where I added another entity called enrollment.
-Based on the logical model I've made a physical model on MySQLWorkbench by applying normalization to remove duplicacy of data.
-After creating the model and selecting the primary keys for all tables I applied forward engineering to create the database.
+Building a database for a website that offers online courses is the basis of this data modelling assignment. The website is for selling online courses such that people can sign up and enroll in one or more courses. Instructors record these classes and post them to the website. One or more tags, such as front-end or back-end, may be added to a course. To build the database, I first developed a conceptual model with two entities—students and courses—and then, based on that, I developed a logical model to which I added a third entity, enrolment.
+By using normalisation to eliminate data duplication, I created a physical model on MySQLWorkbench based on the logical model. 
+I used forward engineering to build the database after building the model and choosing the primary keys for each table.
