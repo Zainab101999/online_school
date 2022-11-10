@@ -9,7 +9,8 @@ I used forward engineering to build the database after building the model and ch
 Step 2: Inserting data into tables
 
 Step 3: Data Anlysis
-Analysis of data by sql queries:
+
+Analysis of data using sql queries:
 
 1) Selecting unique list of DISTINCT states from students table.
 2) Getting names of students with last_names starting with k.
